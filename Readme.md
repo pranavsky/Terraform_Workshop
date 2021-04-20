@@ -1,6 +1,7 @@
 **Terraform Workshop**
 
 Requirements
+
     Google Cloud Platform Project
     GCP service account
     Terraform
@@ -19,12 +20,12 @@ Terraform Installation
 
 Repo Download
 
-5. Assuming you have VS CODE installed in your machine, look for HashiCorp Terraform extension and download it.
+5. Assuming you have VS CODE installed in your machine, look for HashiCorp Terraform extension under settings and download it.
 if you dont have VSCODE then get it from here - https://code.visualstudio.com/download
 6. Download the source from this repo, unzip it.
 Note: You will need to edit the values of the following argument names in provider.tf (credentials, project) which you can do after point 11.
 
-7. On the command prompt, change the directory to the source code which we did in point 6.
+7. On the command prompt, change the directory to the source code folder which we did in point 6.
 
 Google Cloud
 
@@ -39,7 +40,7 @@ Finally your very own laptop
 You should now see Terraform has been successfully initialized!
 13. Now type terraform plan
 This will show you the Linux debian instance that we want to deploy. This is listed in main.tf. Look out the resources that we have setup and ready for deployment in main.tf 
-14. Type terraform apply to do the deployment.
+14. Type terraform apply to do the deployment. Wait for the command to complete
 15. Go back to Google Console and check under Compute Engine, the terraform instance will be created
 16. Copy the external IP address and ping it from your command prompt, you'd see success response.
 17. To destroy the just created instance type terraform destroy
