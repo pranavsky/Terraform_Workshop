@@ -1,4 +1,5 @@
-Terraform Workshop
+**Terraform Workshop
+**
 
 Requirements
     Google Cloud Platform Project
@@ -27,11 +28,13 @@ Note: You will need to edit the values of the following argument names in provid
 7. On the command prompt, change the directory to the source code which we did in point 6.
 
 Google Cloud
+
 8. Go to your GCP project, create a service account by going into IAM & Admin, then Service account
 9. Click on Create Service account button, give the name as you like and Grant this service account access to the project as Project Editor role (Not recommended in real time) and click done. This is one time activity so that terraform knows which project it is interacting with.
 10. Now on Service account list page, find your just created service account and look for 3 dots (Yes same like on Campaign list screen) and click on Create Key, select JSON and click create. - This will download a secret key .json file in your machine.
 
 Finally your very own laptop
+
 11. Copy that .json file and place it the terraform workshop folder from point 6 and make sure you have updated credentials file path and your project name in provider.tf file
 12. Open commandline and type terraform init
 You should now see Terraform has been successfully initialized!
