@@ -9,7 +9,7 @@ Requirements
 
 
 Watch this official video to get an idea on IaC and terraform https://www.hashicorp.com/resources/introduction-terraform-armon-dadgar-video
-and video here https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/gcp-get-started (Dont worry as example in this video is of AWS and in GCP it works in the same way)
+and video here https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/gcp-get-started (Dont worry as example in this video is of AWS and it works in the same way for GCP)
 
 Terraform Installation
 
