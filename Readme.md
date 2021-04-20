@@ -36,7 +36,7 @@ Google Cloud
 Finally your very own laptop
 
 11. Copy that .json file and place it the terraform workshop folder from point 6 and make sure you have updated credentials file path and your project name in provider.tf file
-12. Open commandline and type terraform init
+12. Back to command prompt and type terraform init
 You should now see Terraform has been successfully initialized!
 13. Now type terraform plan
 This will show you the Linux debian instance that we want to deploy. This is listed in main.tf. Look out the resources that we have setup and ready for deployment in main.tf 
