@@ -1,5 +1,4 @@
-**Terraform Workshop
-**
+**Terraform Workshop**
 
 Requirements
     Google Cloud Platform Project
@@ -9,7 +8,7 @@ Requirements
 
 
 Watch this official video to get an idea on IaC and terraform https://www.hashicorp.com/resources/introduction-terraform-armon-dadgar-video
-and complete this exercise
+and video here https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/gcp-get-started (Dont worry as example in this video is of AWS and in GCP it works in the same way)
 
 Terraform Installation
 
@@ -47,8 +46,11 @@ This will show you the Linux debian instance that we want to deploy. This is lis
 18. Go back to GCP Compute Engine, Refresh the page and you'll see nothing.
 19. Exercise
 a. Try to create a firewall rule by writing the code on main.tf from the example here and make sure firewall rule you created is added under GCP < VPC < Firewall Rule
-https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_firewall
-b. Create a bucket through terraform. Details can be found in page - https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources
+
+Hint here - https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_firewall
+
+b. Create a bucket through terraform.
+Hint here - https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources
 
 Destroy everything by terraform destroy command
 
